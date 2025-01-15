@@ -8,4 +8,6 @@ public interface OpenAIService {
     Answer getAswer(Question quention);
 
     Answer getCapital(Question question);
+
+    Answer getCapitalWithInfo(Question question);
 }
