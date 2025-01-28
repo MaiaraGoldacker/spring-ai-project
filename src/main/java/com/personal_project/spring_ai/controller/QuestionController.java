@@ -35,4 +35,10 @@ public class QuestionController {
 
         return openAIService.getAswer(question);
     }
+
+    @PostMapping("/temperature")
+    public Answer postQuestionWithTemperature(@RequestBody Question question){
+
+        return openAIService.getAnswerWithTemperatures(question);
+    }
 }

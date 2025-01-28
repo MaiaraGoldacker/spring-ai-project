@@ -10,4 +10,6 @@ public interface OpenAIService {
     Answer getCapital(Question question);
 
     Answer getCapitalWithInfo(Question question);
+
+    Answer getAnswerWithTemperatures(Question question);
 }
